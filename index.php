@@ -2,7 +2,7 @@
 require_once("config.php");
 $cmsContent = file_get_contents(CMS_API_URL . '/?json=get_post&post_slug=tips-for-hiring-remote-web-developer');
 $cmsContentDecoded = json_decode($cmsContent);
-$TITLE = "Hire Web Developer";
+$TITLE = "Hire PHP Developer";
 include_once("include/header.php");
 ?>
     <div class="container">
