@@ -38,7 +38,7 @@ print $PAGE;
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a href="/" style="font-size: 28px; font-weight: 700;">Hire Web Developer</a>
+                    <a href="/" style="font-size: 28px; font-weight: 700;">Hire PHP Developer</a>
                 </div>
                 <div class="navbar-collapse collapse" id="navbar" style="max-height: 710px;">
                     <ul class="nav navbar-nav navbar-right scroll-to">
