@@ -1,7 +1,7 @@
       <hr>
 
       <footer>
-        <p>&copy; Devzila 2014</p>
+        <p>&nbsp;&copy; Hire Web Developer 2014</p>
       </footer>
     </div> <!-- /container -->
 

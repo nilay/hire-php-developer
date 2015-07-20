@@ -10,7 +10,7 @@ print $PAGE;
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
+    <meta name="description" content="Tips for hiring web developer">
     <meta name="author" content="">
     <link rel="icon" href="/images/favicon.ico">
 
@@ -38,16 +38,14 @@ print $PAGE;
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a href="/" ><img alt="LOGO" src="/images/logo-text.png" height="50"></a>
+                    <a href="/" style="font-size: 28px; font-weight: 700;">Hire Web Developer</a>
                 </div>
                 <div class="navbar-collapse collapse" id="navbar" style="max-height: 710px;">
                     <ul class="nav navbar-nav navbar-right scroll-to">
                         <li class="<?php echo $PAGE == '' ? 'active':'';?>"><a href="/">Home</a></li>
                         <li class="<?php echo $PAGE == 'about-us' ? 'active':'';?>"><a href="/about-us">About Us</a></li>
                         <li class="<?php echo $PAGE == 'services' ? 'active':'';?>"><a href="/services">Services</a></li>
-                        <li class="<?php echo $PAGE == 'work' ? 'active':'';?>"><a href="/work">Work</a></li>
                         <li class="<?php echo substr($PAGE,0,4) == 'blog' ? 'active':'';?>"><a href="/blog">Blog</a></li>
-                        <li class="<?php echo $PAGE == 'jobs' ? 'active':'';?>"><a href="/jobs">Jobs</a></li>
                         <li class="<?php echo $PAGE == 'contact' ? 'active':'';?>"><a href="/contact">Contact</a></li>
 
                     </ul>
